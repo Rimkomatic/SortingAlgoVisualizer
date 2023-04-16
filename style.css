@@ -1,0 +1,77 @@
+:root{
+    --main-bg-color: #845EC2;
+    --main-bar-color:#D65DB1;
+    --red-color-light:#FF6F91;
+    --orange-main-color:#FF9671;
+    --orange-light-color:#FFC75F;
+    --lemon-main-color:#F9F871;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: white
+}
+
+body{
+    background-image: linear-gradient(to top right,#D65DB1,#FF6F91,#FF9671,#FFC75F);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    color: var(--main-bg-color);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.array-container{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    /* gap: 2px; */
+}
+
+.bar-item{
+    position: relative;
+    /* border: 2px solid var(--orange-main-color); */
+    background-color: var(--main-bg-color);
+}
+
+#slider{
+    user-select: none;
+    background-color: #F9F871;
+    cursor: pointer;
+    transform: translateX(-40%);
+    /* padding-left: 20px; */
+}
+.lastdiv{
+    padding-top: 1rem;
+}
+
+
+button{
+    background-color: #845EC2;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+select{
+    outline: none;
+    background-color: #D65DB1;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    font-size: 0.8rem;
+}

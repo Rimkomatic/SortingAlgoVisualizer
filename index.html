@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shorting visualizer</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://i.ibb.co/jG1yBPz/favicon-16x16.png" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Shorting Algo visualizer</h1>
+    <div class="array-container" id="bar-container"> 
+
+    </div>
+    <div class="lastdiv">
+        <input type="range" id="slider" min="10" max="75" value="20">
+        <button id="short-btn">Sort</button>
+
+        <select id="select">
+            <option value="0" selected>Normal</option>
+            <option value="1">Bubble sort</option>
+            <option value="2">insertion sort</option>
+            <option value="3">selection sort</option>
+            <option value="4">Heap sort</option>
+        </select>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+</html>
