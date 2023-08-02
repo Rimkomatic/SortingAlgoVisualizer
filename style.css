@@ -40,7 +40,7 @@ body{
 
 .bar-item{
     position: relative;
-    /* border: 2px solid var(--orange-main-color); */
+    outline: var(--orange-main-color) solid 2px;
     background-color: var(--main-bg-color);
 }
 
